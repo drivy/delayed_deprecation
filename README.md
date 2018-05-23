@@ -27,13 +27,13 @@ optimised to be used with Ruby on Rails._
 You can use it as a one liner:
 
 ```ruby
-TimedDeprecation.new("Only for launch", reconsider_after: Date.new(2017, 10, 1), owner: "Marc")
+TimedDeprecation.new("Only for launch", reconsider_after: Date.new(2017, 10, 1), owner: "Alice")
 ```
 
 Or pass it a block:
 
 ```ruby
-TimedDeprecation.new("To refactor", reconsider_after: Date.new(2017, 10, 1), owner: "Marc") do
+TimedDeprecation.new("To refactor", reconsider_after: Date.new(2017, 10, 1), owner: "Bob") do
   # Code to be executed
 end
 ```
