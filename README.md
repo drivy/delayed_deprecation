@@ -1,8 +1,10 @@
-# Warning: Still under development
-
-This gem will be available soon.
-
 # TimedDeprecation
+
+This gem provides a simple way to setup delayed deprecation notices.
+
+This can be useful to remind you to cleanup a piece of code, for instance
+if you release in multiple steps. It's also an alternative to FIXME comments that
+will actually warn you when running your test suite.
 
 [![Gem Version](https://badge.fury.io/rb/timed_deprecations.svg)](https://badge.fury.io/rb/timed_deprecations)
 [![Maintainability](https://api.codeclimate.com/v1/badges/11ac0d19ca8ce0e6fc0b/maintainability)](https://codeclimate.com/github/drivy/timed_deprecation/maintainability)
@@ -17,13 +19,8 @@ Add this line to your application's Gemfile:
 gem 'timed_deprecation'
 ```
 
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install timed_deprecation
+_Please note that because of a current dependency to activesupport this gem is
+optimised to be used with Ruby on Rails._
 
 ## Usage
 
