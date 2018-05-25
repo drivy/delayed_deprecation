@@ -7,7 +7,6 @@ if you release in multiple steps. It's also an alternative to FIXME comments tha
 will actually warn you when running your test suite.
 
 [![Gem Version](https://badge.fury.io/rb/delayed_deprecations.svg)](https://badge.fury.io/rb/delayed_deprecations)
-[![CircleCI](https://circleci.com/gh/drivy/delayed_deprecations.svg?style=svg)](https://circleci.com/gh/drivy/delayed_deprecations)
 
 ## Installation
 
