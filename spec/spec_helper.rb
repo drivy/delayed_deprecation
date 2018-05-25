@@ -2,7 +2,7 @@ require "simplecov"
 SimpleCov.start
 
 require "bundler/setup"
-require "delayed_deprecations"
+require "delayed_deprecation"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
