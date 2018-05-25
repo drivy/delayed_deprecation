@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    timed_deprecation (0.1.0)
+    delayed_deprecation (0.1.0)
       activesupport (~> 5.1, < 5.2)
 
 GEM
@@ -61,7 +61,7 @@ DEPENDENCIES
   rspec (~> 3.0)
   rubocop
   rubocop-rspec
-  timed_deprecation!
+  delayed_deprecation!
 
 BUNDLED WITH
    1.16.1

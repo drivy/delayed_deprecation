@@ -1,17 +1,17 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "timed_deprecation/version"
+require "delayed_deprecation/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "timed_deprecation"
-  spec.version       = TimedDeprecation::VERSION
+  spec.name          = "delayed_deprecation"
+  spec.version       = DelayedDeprecation::VERSION
   spec.authors       = ["Drivy", "Tim Petricola", "Marc G Gauthier"]
   spec.email         = ["oss@drivy.com"]
 
   spec.summary       = "Defining future deprecations"
   spec.description   = ""
-  spec.homepage      = "https://github.com/drivy/timed_deprecation"
+  spec.homepage      = "https://github.com/drivy/delayed_deprecation"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|

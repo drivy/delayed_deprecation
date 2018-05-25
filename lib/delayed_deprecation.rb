@@ -1,8 +1,8 @@
 require "rubygems"
-require "timed_deprecation/version"
+require "delayed_deprecation/version"
 require "active_support/deprecation"
 
-class TimedDeprecation
+class DelayedDeprecation
   include ActiveSupport::Deprecation::Reporting
 
   def initialize(reason, owner:, reconsider_after: nil, &block)

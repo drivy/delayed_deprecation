@@ -1,6 +1,6 @@
 require "date"
 
-RSpec.describe TimedDeprecation do
+RSpec.describe DelayedDeprecation do
   let(:reason) { "Check later" }
   let(:owner) { "Bob" }
 
