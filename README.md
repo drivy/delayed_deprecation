@@ -6,7 +6,7 @@ This can be useful to remind you to cleanup a piece of code, for instance
 if you release in multiple steps. It's also an alternative to FIXME comments that
 will actually warn you when running your test suite.
 
-[![Gem Version](https://badge.fury.io/rb/delayed_deprecations.svg)](https://badge.fury.io/rb/delayed_deprecations)
+[![Gem Version](https://badge.fury.io/rb/delayed_deprecation.svg)](https://badge.fury.io/rb/delayed_deprecation)
 [![Maintainability](https://api.codeclimate.com/v1/badges/2d83bdfb73a5ac926897/maintainability)](https://codeclimate.com/github/drivy/delayed_deprecation/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/2d83bdfb73a5ac926897/test_coverage)](https://codeclimate.com/github/drivy/delayed_deprecation/test_coverage)
 
