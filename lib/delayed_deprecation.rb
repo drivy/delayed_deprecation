@@ -9,6 +9,7 @@ class DelayedDeprecation
     @reason = reason
     @owner = owner
     @reconsider_after = reconsider_after
+    @deprecation_horizon = reconsider_after
 
     yield if block
 
@@ -18,6 +19,8 @@ class DelayedDeprecation
   def behavior
     ActiveSupport::Deprecation.behavior
   end
+
+  attr_reader :deprecation_horizon
 
   private
 
