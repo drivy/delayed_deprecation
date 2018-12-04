@@ -12,3 +12,10 @@
 *.swp
 *.gem
 *.swo
+
+# Editor support
+/.idea
+
+# RVM support file
+.ruby-gemset
+.ruby-version
