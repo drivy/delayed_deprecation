@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    delayed_deprecation (0.1.0)
+    delayed_deprecation (0.2.0)
       activesupport (~> 5.1, < 6)
 
 GEM
