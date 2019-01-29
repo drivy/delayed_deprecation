@@ -2,21 +2,21 @@ PATH
   remote: .
   specs:
     delayed_deprecation (0.1.0)
-      activesupport (~> 5.1, < 5.2)
+      activesupport (~> 5.1, < 6)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (5.1.6)
+    activesupport (5.2.1.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     ast (2.4.0)
-    concurrent-ruby (1.0.5)
+    concurrent-ruby (1.1.3)
     diff-lcs (1.3)
     docile (1.3.1)
-    i18n (1.0.1)
+    i18n (1.1.1)
       concurrent-ruby (~> 1.0)
     json (2.1.0)
     minitest (5.11.3)
@@ -72,4 +72,4 @@ DEPENDENCIES
   simplecov
 
 BUNDLED WITH
-   1.16.1
+   1.16.6

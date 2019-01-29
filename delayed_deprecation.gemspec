@@ -28,5 +28,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rubocop-rspec"
   spec.add_development_dependency "simplecov"
 
-  spec.add_runtime_dependency "activesupport", "~>5.1", "<5.2"
+  spec.add_runtime_dependency "activesupport", "~>5.1", "<6"
 end
